@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/shu_listview_zheng"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="竖直ListView(正向)" />
+
+    <item
+        android:id="@+id/shu_listview_fan"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="竖直ListView(反向)" />
+    <item
+        android:id="@+id/heng_listview_zheng"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="横向ListView(正向)" />
+
+    <item
+        android:id="@+id/heng_listview_fan"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="横向ListView(反向)" />
+
+    <item
+        android:id="@+id/shu_gridview_zheng"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="竖直GridView(正向)" />
+    <item
+        android:id="@+id/shu_gridview_fan"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="竖直GridView(反向)" />
+
+    <item
+        android:id="@+id/heng_girdview_zheng"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="横向GridView(正向)" />
+    <item
+        android:id="@+id/heng_girdview_fan"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="横向GridView(反向)" />
+    <item
+        android:id="@+id/shu_pubu"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="竖直瀑布流" />
+    <item
+        android:id="@+id/heng_pubu"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="横向瀑布流" />
+
+
+</menu>
