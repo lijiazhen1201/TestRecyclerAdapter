@@ -49,6 +49,14 @@ public abstract class BaseRecyclerAdapter<T> extends RecyclerView.Adapter<BaseRe
     }
 
     /**
+     * 设置数据源
+     * @param list
+     */
+    public void setList(List<T> list) {
+        this.list = list;
+    }
+
+    /**
      * 创建ViewHolder
      *
      * @param parent
